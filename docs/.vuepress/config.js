@@ -1,7 +1,7 @@
 module.exports = {
   title: "Theme Title",
   description: "Theme description",
-  base: "/",
+  base: "/blog/",
   theme: "casper",
   head: [["link", { rel: "icon", href: "/favicon.png" }]],
   markdown: {
@@ -35,10 +35,6 @@ module.exports = {
         link: "/category/reviews",
       },
       {
-        text: "Category",
-        link: "/category/some-category",
-      },
-      {
         text: "Page",
         link: "/a-page.html",
       },
@@ -50,22 +46,22 @@ module.exports = {
       },
       {
         text: "Facebook",
-        link: "https://facebook.com/",
+        link: "https://www.facebook.com/jingwu.hu",
       },
       {
         text: "Twitter",
-        link: "https://twitter.com",
+        link: "https://twitter.com/wowdacom",
       },
       {
         text: "Github",
-        link: "https://github.com/",
+        link: "https://github.com/wowdacom",
       },
     ],
     social: {
-      github: "https://github.com",
-      twitter: "https://twitter.com",
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
+      github: "https://github.com/wowdacom",
+      twitter: "https://twitter.com/wowdacom",
+      facebook: "https://www.facebook.com/jingwu.hu",
+      instagram: "https://www.instagram.com/jingwuhu/",
       linkedin: "https://linkedin.com",
     },
   },
